@@ -16,6 +16,7 @@ If you choose to use the migration files provided then you can continue to apply
 2. Modify the `.sample.env` file and rename it to `.env`
 3. Run `dbmate create`
 3. Run `dbmate up`
+4. Whenever there are updates, just pull the repo and run `dbmate up`.
 
 ## License
 
