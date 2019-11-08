@@ -1,4 +1,4 @@
-# Supabase Schemas
+# PostgreSQL Schemas
 
 An opensource repository of PostgreSQL schemas to get your projects started. We envisage this to hold some complete schemas that anyone can contribute to via new migration files, or completely new schemas. 
 
