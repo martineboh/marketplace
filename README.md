@@ -1,6 +1,8 @@
 # PostgreSQL Schemas
 
-An opensource repository of PostgreSQL schemas to get your projects started. We envisage this to hold some complete schemas that anyone can contribute to via new migration files, or completely new schemas. 
+An opensource repository of PostgreSQL schemas to get your projects started. 
+
+Complete, tested schemas that anyone can contribute to via new migration files. 
 
 ## Getting started
 
@@ -15,8 +17,8 @@ If you choose to use the migration files provided then you can continue to apply
 1. Fork this repo. In the schema you are using:
 2. Modify the `.sample.env` file and rename it to `.env`
 3. Run `dbmate create`
-3. Run `dbmate up`
-4. Whenever there are updates, just pull the repo and run `dbmate up`.
+4. Run `dbmate up`
+5. Whenever there are updates, just pull the repo and run `dbmate up`.
 
 ## License
 

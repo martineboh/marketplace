@@ -14,13 +14,13 @@ help:
 # DATABASE COMMANDS 
 #########################
 
-create.%:
+db.create.%:
 	cd $*; echo "I'm in some_dir"; 
 
-up.%:
-	cd $*; echo "I'm in some_dir"; 
+db.up.%:
+	cd $*; dbmate up; 
 
-new.%:
+db.new.%:
 	cd $*; dbmate new RENAME;
 	echo "\n\nMake sure to rename the file with a useful description!"
 
@@ -29,5 +29,6 @@ new.%:
 # HELPERS 
 #########################
 
-env:
-	export $(grep -v '^#' .env | xargs -d '\n')
+test.%:
+	docker-compose up
+	cd $*; dbmate up;
