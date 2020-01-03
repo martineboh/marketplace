@@ -2,12 +2,21 @@
 
 An opensource repository of PostgreSQL schemas to get your projects started. 
 
-Complete, tested schemas that anyone can contribute to via new migration files. 
+Complete, tested schemas that anyone can contribute to with new migration files. 
+
 
 ## Getting started
 
+You can freely access these databases online:
+
+#### World
+
+Cities, countries, and the language they speak
+
+
+## Hosting locally
+
 - Every folder is a template / schema
-- Every folder has a file called `db.sql` which contains the full schema.
 - Every folder contains [dbmate](https://github.com/amacneil/dbmate) migrations, so you can fork this repo and then continue to apply updates to your database as we make improvements.
 
 ## Keeping your database updated
