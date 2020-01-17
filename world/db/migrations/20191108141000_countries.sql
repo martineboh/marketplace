@@ -271,4 +271,4 @@ INSERT INTO public.countries (iso2,"name",iso3,id) VALUES
 
 -- migrate:down
 
-DROP TABLE public.country;
+DROP TABLE public.countries;
