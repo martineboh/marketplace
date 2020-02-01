@@ -16,18 +16,11 @@ Cities, countries, and the language they speak
 
 ## Hosting locally
 
-- Every folder is a template / schema
-- Every folder contains [dbmate](https://github.com/amacneil/dbmate) migrations, so you can fork this repo and then continue to apply updates to your database as we make improvements.
+Every folder is a template / schema
 
 ## Keeping your database updated
 
-If you choose to use the migration files provided then you can continue to apply our updates to your own schema.
-
-1. Fork this repo. In the schema you are using:
-2. Modify the `.sample.env` file and rename it to `.env`
-3. Run `dbmate create`
-4. Run `dbmate up`
-5. Whenever there are updates, just pull the repo and run `dbmate up`.
+You can run a diff tool (like [migra](https://github.com/djrobstep/migra)) against your current database to generate a migration script.
 
 ## License
 
